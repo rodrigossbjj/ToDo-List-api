@@ -1,0 +1,24 @@
+### GET tarefas
+GET http://localhost:3000/tarefas
+
+
+### POST Tarefa
+POST http://localhost:3000/tarefas
+Content-Type: application/json
+
+{
+  "nome": "Aprender NodeJs"
+}
+
+
+### PUT Atualizar Tarefa por ID
+PUT http://localhost:3000/tarefas/1
+Content-Type: application/json
+
+{
+  "nome": "Aprender Express"
+}
+
+
+### Excluir tarefa por ID 
+DELETE http://localhost:3000/tarefas/2
